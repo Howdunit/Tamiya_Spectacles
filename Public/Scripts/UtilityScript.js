@@ -1,13 +1,3 @@
-// Custom Utility scripts.
-
-
-
-global.Clamp = function (num, min, max) {
-    return Math.min(Math.max(num, min), max);
-}
-
-
-global.Map = function (current, in_min, in_max, out_min, out_max) {
-  const mapped = ((current - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
-  return global.Clamp(mapped, out_min, out_max);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:864c52315dbbf86b43897f45d3bf07337c9def2ab9e2665ce0cf7c51436dacff
+size 331

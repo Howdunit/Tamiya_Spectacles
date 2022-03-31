@@ -1,16 +1,3 @@
-// -----JS CODE-----
-//@input float force
-//@input string forceMode {"widget":"combobox", "values":[{"label":"VelocityChange","value":"VelocityChange"}, {"label":"Acceleration","value":"Acceleration"}, {"label":"Impulse","value":"Impulse"},{"label":"Force","value":"Force"}]}
-var body = script.getSceneObject().getComponent ("Physics.BodyComponent");
-script.createEvent ("TouchStartEvent").bind (AddForce);
-
-
-function AddForce () {
-    
-    print ("testing...");
-    
-    if (body != null) {
-    
-    body.addForce (script.getTransform().forward.uniformScale (script.force), Physics.ForceMode.Force);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95a30d255d69f2cf62e588b8e360ef4cbe5db775b0c1f24621d4ef82c85ea152
+size 608

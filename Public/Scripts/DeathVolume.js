@@ -1,15 +1,3 @@
-// -----JS CODE-----
-//@input SceneObject respawnLocation
-//@input SceneObject carObject
-
-script.api.respawnCar = function () {
-        
-    if (script.respawnLocation && script.carObject) {
-        
-        script.carObject.getTransform().setWorldPosition (script.respawnLocation.getTransform().getWorldPosition());
-        
-        script.carObject.getTransform().setWorldRotation (script.respawnLocation.getTransform().getWorldRotation());
-        
-        print ("car has been respawned!");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bc66977db7d149961a0ad16333a8ea07f5922350cdf30e795795022e57c4ceb
+size 1318

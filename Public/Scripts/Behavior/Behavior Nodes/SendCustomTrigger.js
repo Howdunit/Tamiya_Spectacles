@@ -1,7 +1,3 @@
-// @input string triggerName
-
-if (!global.behaviorSystem) {
-    print("Behavior system not initialized. Make sure a Behavior script is present in the scene, and above this in the Objects panel hierarchy.");
-}
-
-global.behaviorSystem.sendCustomTrigger(script.triggerName);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1edd9c59bb8c5d668924591e46ac5155b1b920d7c392c69042134b56c5b11a77
+size 270

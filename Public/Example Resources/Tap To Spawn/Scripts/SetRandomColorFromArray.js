@@ -1,24 +1,3 @@
-// SetRandomColorFromArray.js
-// Version: 0.0.1
-// Event: On Awake
-// Description: Set random color and apply to the base color parameter of the materials
-
-// @input Component.MaterialMeshVisual[] material
-// @input vec4[] randomColors = {1,1,1,1} {"widget":"color"}
-
-if (script.randomColors.length == 0) {
-    return;
-}
-
-var curColor = getRandomColorFromArray();
-
-for (var i = 0; i < script.material.length; i++) {
-    if (!isNull(script.material[i])) {
-        script.material[i].mainPass.baseColor = curColor;
-    }
-}
-
-function getRandomColorFromArray() {
-    var ind = Math.floor(Math.random() * script.randomColors.length);
-    return script.randomColors[ind];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af4858567afe76b88467d8c6a8fd73fd49d833588a3b7a553147962d0507f442
+size 667
